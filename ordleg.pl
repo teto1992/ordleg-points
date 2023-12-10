@@ -1,3 +1,5 @@
+:- include('points.pl').
+
 ordleg(Word, Score) :- 
     string_chars(Word, Chars),
     score(Chars, Score).
