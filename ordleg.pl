@@ -27,9 +27,9 @@ points('y',4).
 points('z',10).
 points(' ', 10).
 
-ordleg(Parola, points) :- 
-    string_chars(Parola, Caratteri),
-    score(Caratteri, points).
+ordleg(Word, Score) :- 
+    string_chars(Word, Chars),
+    score(Chars, Score).
  
 % Predicato che calcola il score di una parola
 score([X|Xs], P) :- 
