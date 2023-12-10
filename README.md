@@ -6,10 +6,11 @@ To run this software install SWI-Prolog by following the instructions available 
 
 # How to
 
-1. Open a new terminal and launch `swipl ordleg.pl`
-2. Query the predicate `ordleg(Word, Score)` as in
+1. Clone this repository
+2. Open a new terminal and launch `swipl ordleg.pl` from the root folder of the cloned repository
+3. Query the predicate `ordleg(Word, Score)` as in
 ```prolog
 ?- ordleg('hello', Score).
 Score = 8.
 ```
-to obtain the `Score` corresponding to the specified `Word`.
+to obtain the `Score` corresponding to the specified `Word`
