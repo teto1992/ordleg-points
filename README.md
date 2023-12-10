@@ -2,7 +2,7 @@
 A Prolog prototype to automatically count points in the [ordleg](https://flyingtiger.com/it/products/word-play-3029097) game by FlyingTiger
 
 # Prerequisites
-To run **ordleg-points** install SWI-Prolog by following the instructions available [here](https://www.swi-prolog.org/download/stable)
+To run this software install SWI-Prolog by following the instructions available [here](https://www.swi-prolog.org/download/stable)
 
 # How to
 
